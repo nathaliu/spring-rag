@@ -1,4 +1,4 @@
-package fr.efrei.spring_rag.rest;
+package fr.efrei.spring_rag.web.rest;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.GetMapping;
