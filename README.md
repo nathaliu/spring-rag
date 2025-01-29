@@ -3,6 +3,9 @@
 Project generated with https://start.spring.io/
 
 # Main steps for this exercise
+
+# 08/01/2025
+
 1) Créer un nouveau projet Github : spring-rag
 2) Clone le projet en local
 
@@ -38,4 +41,11 @@ Créer un projet avec H2 et spring web en dependencies + packaging jar et java v
 1) Ouvrir le projet sur un IDE
 2) Créer 2 packages dans src/main/java/fr.efrei.spring_rag web/rest/
 3) Créer une classe SampleRessource et mettre ⁠Ing-3 Apprentissage (promo 2025)⁠
-4) Lancer SpringRagApplication 
+4) Lancer SpringRagApplication
+5) Update 'Document' spring-rag/src/main/java/fr/efrei/spring_rag/domain/Document.java
+
+# 29/01/2024
+## Kubernetes
+1) Mettre à jour le build.yml
+
+
