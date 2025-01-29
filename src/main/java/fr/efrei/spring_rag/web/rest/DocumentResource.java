@@ -13,10 +13,10 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @RestController
-public class DocumentRessource {
+public class DocumentResource {
     private final DocumentService documentService;
 
-    public DocumentRessource(DocumentService documentService) {
+    public DocumentResource(DocumentService documentService) {
         this.documentService = documentService;
     }
 
