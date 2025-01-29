@@ -1,7 +1,13 @@
 package fr.efrei.spring_rag.domain;
 
 import jakarta.persistence.*;
+
+@Entity
 public class Document {
+    public Long getId() {
+        return id;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(nullable = false)
@@ -10,5 +16,4 @@ public class Document {
     private String description;
     private String author;
     private String publisher;
-
 }
