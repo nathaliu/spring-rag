@@ -52,4 +52,7 @@ Créer un projet avec H2 et spring web en dependencies + packaging jar et java v
 1) Ajout des classes DocumentRessource, Document Service et de l'interface DocumentRepository
 2) Accéder à http://localhost:8080/swagger-ui/index.html#/ 
 
-
+## Ajout de l'Assistant IA
+1) Update service AssistantAiService, et le controlleur AssistantResource
+2) Ajout des ressources resoures/prompts/system.st
+3) Mettre à jour les dépendances build.gradle
