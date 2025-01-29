@@ -46,6 +46,10 @@ Créer un projet avec H2 et spring web en dependencies + packaging jar et java v
 
 # 29/01/2024
 ## Kubernetes
-1) Mettre à jour le build.yml
+1) Mettre à jour le build.yml afin d'ajouter la Step Kubernetes
+
+## Swagger
+1) Ajout des classes DocumentRessource, Document Service et de l'interface DocumentRepository
+2) Accéder à http://localhost:8080/swagger-ui/index.html#/ 
 
 
